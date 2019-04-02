@@ -8,7 +8,15 @@ import Nav from "./components/Nav/Nav";
 
 class App extends Component {
   render() {
-    return <div className="App" />;
+    return (
+      <div className="App">
+        <Auth />
+        <Dashboard />
+        <Form />
+        <Post />
+        <Nav />
+      </div>
+    );
   }
 }
 
